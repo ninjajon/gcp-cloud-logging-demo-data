@@ -8,7 +8,7 @@ terraform {
 
   backend "gcs" {
     bucket = "jo-terraform-states"
-    prefix = "cloud-logging-demo"
+    prefix = "cloud-logging-demo-data"
   }
 }
 
